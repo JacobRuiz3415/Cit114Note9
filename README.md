@@ -1,0 +1,46 @@
+# Cit114Note9
+## Main points
+- There are some general Principles
+- You need to stop guessing your capacity, and you should use as much as you need  
+- You can create a production-scale test environment for your system.
+- This is a way to test out the system in a simulated live environment.
+- Try to automate to make workloads easier to replicate and at a low cost.
+- You should keep track snd records these changes.
+- Design the system in a way to allow for new changes.
+- Use collected data to drive your system architecture. 
+- There are five pillars for a well-architected AWS framework.
+- Operational excellence means the ability to support the development and run workloads effectively.
+- Good design principles for this are performing operations as code, making frequent small changes, and trying to refine your procedures frequently.
+- The four keys to operational excellence are Organization, preparation, operation, and Evolve.
+- Security simply focuses on how you protect your systems.
+- One principle is to have a strong identity foundation or the principle of least privilege.
+- Another point is to remember to protect data at rest and transit by using mechanisms such as encryption.
+- You should put mechanisms in place to keep people away from data.
+- lastly, you need to prepare on how to react to security incidents
+- Reliability really means workloads should perform its task correctly and consistently.
+- One key design principle is using automating recovery
+- This is where you Monitor a workload’s KPI failure and configure a system’s automated recovery procedures.
+- It will trigger if a system passes a threshold.
+- You should try test recovery procedures.
+- You might need to scale horizontally to reduce the impact of a single failure.
+- This is done by replacing one large resource with many smaller resources.
+- You should have mechanisms and procedures in case of a system failure.
+- Performance Efficiency means performing more tasks but using fewer resources.
+- The First design principle is
+- You should try to deploy your AWS instances in multiple regions to lower latency.
+- You can use serverless architecture to reduce the cost of managing servers
+- Another principle is simply experimentation.
+- You can try to experiment with different types of instances, stages, and configurations to see what work.
+- Lastly, there is also machinal sympathy.
+- This means understanding how cloud resources are consumed.
+- Cost optimization refers to how cost-efficient you are in using your resources.
+- Only pay for the computing resources you require.
+- You should measure the profit and cost of a workload.
+## Quote:
+- “You must learn, share, and continuously improve to sustain operational excellence. Dedicate work. cycles to making continuous incremental improvements. Perform post-incident analysis of all customer-impacting events. Identify the contributing factors and preventative action to limit or prevent a recurrence. Communicate contributing factors with affected communities as appropriate.”
+- “Measure the impact of your cloud workload and model the future impact of your workload. Include all sources of impact, including impacts resulting from customer use of your products, and impacts resulting from their eventual decommissioning and retirement.”
+## New facts
+- Turn off development and QA servers to save money.
+- KPIs should be a measure of business value, not technical ability.
+- Serverless architecture can reduce transactional costs because managed services operate at a cloud scale.
+- For performance efficiency, you need to understand the idea of tradeoffs or the thing you may trade for higher performance.
